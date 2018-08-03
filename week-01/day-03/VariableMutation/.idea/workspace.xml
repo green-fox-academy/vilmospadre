@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85a31ba-6427-438d-b79f-6ff4a342eaa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CodingHours/src/CodingHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DefineBasicInfo/src/DefineBasicInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FavoriteNumber/src/FavoriteNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloUser/src/HelloUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroduceYourself/IntroduceYourself.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroduceYourself/src/IntroduceYourself.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondsInADay/src/SecondsInADay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Swap/src/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwoNumbers/src/TwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VariableMutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hellogoodbye/src/hellogoodbye.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../humptydumpty/src/src/HumptyDumpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloUser/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VariableMutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -92,8 +82,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="96" />
+    <option name="x" value="-196" />
+    <option name="y" value="47" />
     <option name="width" value="1324" />
     <option name="height" value="770" />
   </component>
@@ -127,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533221723674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533290211916" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,15 +157,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533216625626</updated>
-      <workItem from="1533216629153" duration="3377000" />
+      <workItem from="1533216629153" duration="3972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3377000" />
+    <option name="totallyTimeSpent" value="3972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="96" width="1324" height="770" extended-state="0" />
+    <frame x="-196" y="47" width="1324" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -216,8 +207,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/VariableMutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
