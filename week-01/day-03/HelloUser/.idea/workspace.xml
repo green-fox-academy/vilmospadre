@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c7f460-f041-4e9d-b8df-337f2bb12431" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day-04/IWontCheatOnTheExams/src/IWontCheatOnTheExams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day-04/OneTwoALot/src/OneTwoALot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day-04/PartyIndicator/src/PartyIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/VariableMutation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VariableMutation/src/VariableMutation.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d5c7f460-f041-4e9d-b8df-337f2bb12431" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533310283921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533310287327" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
