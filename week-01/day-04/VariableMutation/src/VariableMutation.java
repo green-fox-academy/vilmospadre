@@ -30,11 +30,10 @@ public class VariableMutation {
         System.out.println(e*e*e);
 
 
-        int f1 = 123;
-        int f2 = 345;
+        int v1 = 123;
+        int v2 = 345;
         // tell if f1 is bigger than f2 (print as a boolean)
-        boolean f1 > f2 = false;
-        System.out.println(f1 > f2);
+        System.out.println(v1 > v2);
 
 
 
@@ -67,7 +66,10 @@ public class VariableMutation {
 
         String k = "Apple";
         //fill the k variable with its cotnent 4 times
-        System.out.println(k * 4);
+        System.out.println(k);
+        System.out.println(k);
+        System.out.println(k);
+        System.out.println(k);
 
     }
 }

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f0660f-0db5-47d0-82c3-a6a730ae30c2" name="Default Changelist" comment="">
+    <list default="true" id="18e5dca0-a1c0-4aca-a6b1-ba08e939cb7a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../HelloUser/src/practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MileToKmConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OddEven/src/OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloUser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VariableMutation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VariableMutation/src/VariableMutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1862955163">
+    <session id="1923804847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -35,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -51,10 +53,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CodingHours.java">
+        <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -74,7 +76,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CodingHours.java" />
+        <option value="$PROJECT_DIR$/src/MileToKmConverter.java" />
       </list>
     </option>
   </component>
@@ -85,8 +87,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="22" />
+    <option name="x" value="124" />
+    <option name="y" value="96" />
     <option name="width" value="1324" />
     <option name="height" value="770" />
   </component>
@@ -96,31 +98,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CodingHours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingHours" type="462c0819:PsiDirectoryNode" />
+              <item name="MileToKmConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MileToKmConvert" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CodingHours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingHours" type="462c0819:PsiDirectoryNode" />
+              <item name="MileToKmConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MileToKmConvert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533290558942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533297545402" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -137,16 +139,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CodingHours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingHours" />
-      <module name="CodingHours" />
+    <configuration name="MileToKmConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MileToKmConverter" />
+      <module name="MileToKmConvert" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodingHours" />
+        <item itemvalue="Application.MileToKmConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -155,27 +157,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="12f0660f-0db5-47d0-82c3-a6a730ae30c2" name="Default Changelist" comment="" />
-      <created>1533212510981</created>
+      <changelist id="18e5dca0-a1c0-4aca-a6b1-ba08e939cb7a" name="Default Changelist" comment="" />
+      <created>1533292160051</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533212510981</updated>
-      <workItem from="1533212514950" duration="3242000" />
+      <updated>1533292160051</updated>
+      <workItem from="1533292170106" duration="3148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3242000" />
+    <option name="totallyTimeSpent" value="3148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="22" width="1324" height="770" extended-state="0" />
+    <frame x="124" y="96" width="1324" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21462265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -184,7 +187,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,10 +210,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CodingHours.java">
+    <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

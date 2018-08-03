@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c7f460-f041-4e9d-b8df-337f2bb12431" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CodingHours/src/CodingHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DefineBasicInfo/src/DefineBasicInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FavoriteNumber/src/FavoriteNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroduceYourself/IntroduceYourself.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroduceYourself/src/IntroduceYourself.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondsInADay/src/SecondsInADay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Swap/src/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwoNumbers/src/TwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VariableMutation/src/VariableMutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hellogoodbye/src/hellogoodbye.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../humptydumpty/src/src/HumptyDumpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/IWontCheatOnTheExams/src/IWontCheatOnTheExams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/OneTwoALot/src/OneTwoALot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/PartyIndicator/src/PartyIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingHours/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/VariableMutation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VariableMutation/src/VariableMutation.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,33 +32,47 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="97" />
+          <entry key="java" value="355" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="355" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HelloUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -79,6 +93,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HelloUser.java" />
+        <option value="$PROJECT_DIR$/src/practice.java" />
       </list>
     </option>
   </component>
@@ -89,8 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="62" />
+    <option name="x" value="24" />
+    <option name="y" value="197" />
     <option name="width" value="1324" />
     <option name="height" value="770" />
   </component>
@@ -124,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533221723688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533310283921" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -140,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.practice">
     <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloUser" />
       <module name="HelloUser" />
@@ -148,6 +163,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice" />
+      <module name="HelloUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloUser" />
+      <item itemvalue="Application.practice" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloUser" />
@@ -164,23 +190,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533221254436</updated>
-      <workItem from="1533221258501" duration="465000" />
+      <workItem from="1533221258501" duration="7235000" />
     </task>
+    <task id="LOCAL-00001" summary="practiceScanner">
+      <created>1533290346596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533290346596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465000" />
+    <option name="totallyTimeSpent" value="7235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="62" width="1324" height="770" extended-state="0" />
+    <frame x="24" y="197" width="1324" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -188,7 +223,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928678" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32928678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,11 +245,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practiceScanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiceScanner" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
