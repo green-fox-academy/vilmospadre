@@ -1,8 +1,8 @@
 import javax.swing.*;
 
-        import java.awt.*;
+import java.awt.*;
 
-        import static javax.swing.JFrame.EXIT_ON_CLOSE;
+import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class ColoredBox {
     public static void mainDraw(Graphics graphics) {
@@ -12,9 +12,9 @@ public class ColoredBox {
         graphics.setColor(Color.GREEN);
         graphics.drawLine(v, v, v * 2, v);
         graphics.setColor(Color.MAGENTA);
-        graphics.drawLine(v,v,v,v * 2);
+        graphics.drawLine(v, v, v, v * 2);
         graphics.setColor(Color.CYAN);
-        graphics.drawLine(v, v * 2,v * 2,v * 2);
+        graphics.drawLine(v, v * 2, v * 2, v * 2);
         graphics.setColor(Color.BLUE);
         graphics.drawLine(v * 2, v, v * 2, v * 2);
 
