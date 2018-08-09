@@ -19,7 +19,7 @@ public class RainbowBoxFunction {
         Color[] colors = {Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, indiGo, vioLet};
 
         for (int i = 6; i >= 0; i--) {
-            int v = 20 * i;
+            int v = 10 * i;
 
             squaredrawFunction(graphics, v, colors[i]);
 
@@ -28,8 +28,9 @@ public class RainbowBoxFunction {
 
 
     public static void squaredrawFunction(Graphics graphics, int v, Color colors) {
-        graphics.fillRect(WIDTH / 2, HEIGHT / 2, v, v);
         graphics.setColor(colors);
+        graphics.fillRect((WIDTH / 2) - v, (HEIGHT / 2) - v, v, v);
+
     }
 
     // Don't touch the code below
