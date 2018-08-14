@@ -15,7 +15,7 @@ public class MatchMaking {
     public static ArrayList<String> makingMatches(ArrayList<String> a, ArrayList<String> b) {
         ArrayList<String> matchesList = new ArrayList<>();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i <= 5; i++) {
             matchesList.add(a.get(i));
             matchesList.add(b.get(i));
         }

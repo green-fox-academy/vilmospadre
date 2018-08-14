@@ -1,3 +1,5 @@
+import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -28,7 +30,6 @@ public class Astroid {
 
             graphics.drawLine(WIDTH / 2, HEIGHT / 2 + (i * 10), WIDTH - (i * 10), HEIGHT / 2);
         }
-
 
     }
 

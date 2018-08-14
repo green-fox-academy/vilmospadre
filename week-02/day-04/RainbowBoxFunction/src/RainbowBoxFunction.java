@@ -29,7 +29,7 @@ public class RainbowBoxFunction {
 
     public static void squaredrawFunction(Graphics graphics, int v, Color colors) {
         graphics.setColor(colors);
-        graphics.fillRect((WIDTH / 2) - v, (HEIGHT / 2) - v, v, v);
+        graphics.fillRect((WIDTH / 2) + v, (HEIGHT / 2) + v, v, v);
 
     }
 
