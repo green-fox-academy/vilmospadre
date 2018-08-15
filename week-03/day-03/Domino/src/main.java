@@ -1,17 +1,17 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class main {
 
     public static void main(String[] args) {
 
-
         List<Domino> dominoes = initializeDominoes();
         // You have the list of Dominoes
         // Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
         // eg: [2, 4], [4, 3], [3, 5] ...
-
         System.out.println(dominoes);
+        snakeOfDominoes(dominoes);
     }
 
     static List<Domino> initializeDominoes() {
@@ -27,15 +27,14 @@ public class main {
 
     static void snakeOfDominoes(List<Domino> dominoes) {
         for (int i = 0; i < dominoes.size(); i++) {
-            if (dominoes.get(i).getValues()[0] == dominoes.get(i).getValues()[1]) {
-                List list.add dominoes;
-                for (String  : dominoes) {
-            }
-                System.out.println(dominoes);
+            for (int v = i + 1; v < dominoes.size(); v++) {
 
-            }
+                if (dominoes.get(i).getValues()[0] == dominoes.get(i).getValues()[1]) {
+                    Collections.swap(dominoes, i, v);
 
+                    System.out.println(dominoes);
+                }
+            }
         }
-        System.out.println(dominoes);
     }
 }
