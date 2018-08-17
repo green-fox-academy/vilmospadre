@@ -29,8 +29,8 @@ public class main {
         for (int i = 0; i < dominoes.size(); i++) {
             for (int v = i + 1; v < dominoes.size(); v++) {
 
-                if (dominoes.get(i).getValues()[0] == dominoes.get(i).getValues()[1]) {
-                    Collections.swap(dominoes, i, v);
+                if (dominoes.get(i).getValues()[1] == dominoes.get(v).getValues()[0]) {
+                    Collections.swap(dominoes,i + 1, v);
 
                     System.out.println(dominoes);
                 }
