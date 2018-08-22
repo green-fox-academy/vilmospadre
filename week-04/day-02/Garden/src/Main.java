@@ -3,15 +3,15 @@ public class Main {
 
         Garden garden = new Garden();
 
-        garden.addFlora(new Flower("yellow", 9));
-        garden.addFlora(new Flower("blue", 9));
-        garden.addFlora(new Tree("purple", 0));
-        garden.addFlora(new Tree("orange", 0));
+        garden.addPlants(new Flower("yellow", 4));
+        garden.addPlants(new Flower("blue", 4));
+        garden.addPlants(new Tree("purple", 7));
+        garden.addPlants(new Tree("orange", 7));
 
         garden.printNeeds();
-        garden.douseFlora(40);
+        garden.dousePlants(40);
         garden.printNeeds();
-        garden.douseFlora(70);
+        garden.dousePlants(70);
         garden.printNeeds();
     }
 }

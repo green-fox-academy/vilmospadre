@@ -3,39 +3,44 @@ import java.util.List;
 
 class Garden {
 
-    List<Flora> garden;
+    List<Plants> garden;
 
     Garden() {
         garden = new ArrayList<>();
     }
 
-    void addFlora(Flora flora) {
-        this.garden.add(flora);
+    void addPlants(Plants plants) {
+        this.garden.add(plants);
     }
 
     void printNeeds() {
-        for (Flora flora : garden) {
-            if (flora.waterAmount < flora.maxWater) {
-                System.out.println("The " + flora.color + " " + flora.type + " needs water.");
+        for (Plants plants : garden) {
+            if (plants instanceof Flower && plants.getWaterAmount() < 5) {
+                System.out.println("The " + plants.getColor() + " " + plants.getType() + " needs water.");
+
+            } else if (plants instanceof Tree && plants.getWaterAmount() < 10) {
+                System.out.println("The " + plants.getColor() + " " + plants.getType() + " needs water.");
+
             } else {
-                System.out.println("The " + flora.color + " " + flora.type + " is fine.");
+                System.out.println("The " + plants.getColor() + " " + plants.getType() + " is fine.");
             }
         }
         System.out.println();
     }
 
-    void douseFlora(int amount) {
+    void dousePlants(int amount) {
         System.out.println("Douse with " + amount);
-        int floraInNeed = 0;
-        for (Flora flora : this.garden) {
-            if (flora.waterAmount < flora.maxWater) {
-                floraInNeed++;
+        int plantInNeed = 0;
+        for (Plants plants : this.garden) {
+            if (plants.getWaterAmount() < plants.getMaxWater()) {
+                plantInNeed++;
             }
         }
-        amount = floraInNeed;
-        for (Flora flora : this.garden) {
-            if (flora.waterAmount < flora.maxWater) {
-                flora.water(amount);
+
+        amount = plantInNeed;
+        for (Plants plants : this.garden) {
+            if (plants.getWaterAmount() < plants.getMaxWater()) {
+                plants.water(amount);
             }
         }
     }
