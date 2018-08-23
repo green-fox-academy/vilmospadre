@@ -1,6 +1,10 @@
 public class Apples {
 
-    private String apple = "apple";
+    Apples(String apple) {
+        this.apple = apple;
+    }
+
+    private String apple;
 
     public String getApple() {
         return apple;
