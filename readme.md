@@ -2,4 +2,4 @@ I have an other repository, it is a lesson repo, [here's the link.](https://gith
 
 my todo app is [here](https://github.com/vilmospadre/todo-app)
 
-Fulvipes exam is [here](/Users/VL/Desktop/greenfox)
+Fulvipes exam is [here](/Users/VL/Desktop/greenfox/fulvipes-basic-exam)
