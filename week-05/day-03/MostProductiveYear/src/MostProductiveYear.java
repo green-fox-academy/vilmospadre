@@ -45,4 +45,7 @@ public class MostProductiveYear {
 // I found these:
 // https://stackoverflow.com/questions/29122394/word-frequency-count-java-8
 // https://stackoverflow.com/questions/6008241/what-is-the-difference-between-e-and-t-for-java-generics
-// not sure I understand, seems interesting
+// not sure I understand, seems interesting.
+// whereas the collector gives back Long, the stream API function expects lambda as parameter
+// https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
+// i don't know these, I try to inspect them furthermore later on (past and passed exam probably)
