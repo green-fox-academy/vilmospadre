@@ -14,9 +14,8 @@ public class countAs {
     private static int countAs(String text) {
         int count = 0;
         for (char character : text.toLowerCase().toCharArray()) {
-            if (character == 'a') {
-                count++;
-            }
+            if (character == 'a') ;
+            count++;
         }
         return count;
     }
