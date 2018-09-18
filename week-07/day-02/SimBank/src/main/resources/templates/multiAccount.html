@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <meta charset="utf-8" />
+</head>
+<body>
+<table>
+    <th:block th:each="BankAccount:${list}">
+    <tr th:if="${BankAccount.isKing()}" class="king">
+        <td th:text="${BankAccountStat.index}+1"></td>
+        <td th:text="${BankAccount.getName()}"></td>
+        <td th:text="${BankAccount.getBalance()}"></td>
+        <td th:text="${BankAccount.getCurrency()}"></td>
+        <td th:text="${BankAccount.getAnimalType()}"></td>
+    </tr>
+        <tr th:unless="${BankAccount.isKing()}">
+            <td th:text="${BankAccountStat.index}+1"></td>
+            <td th:text="${BankAccount.getName()}"></td>
+            <td th:text="${BankAccount.getBalance()}"></td>
+            <td th:text="${BankAccount.getCurrency()}"></td>
+            <td th:text="${BankAccount.getAnimalType()}"></td>
+        </tr>
+    </th:block>
+</body>
+</html>
