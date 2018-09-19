@@ -11,6 +11,7 @@ public class HelloBeanWolrd implements CommandLineRunner {
 
     Printer printer;
 
+
     public HelloBeanWolrd(Printer printer) {
         this.printer = printer;
     }
