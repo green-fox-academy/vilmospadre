@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="htpp://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <meta charset="UTF-8">
+    <title>colors</title>
+</head>
+<body>
+<span th:if="${colors == 'green'}" class="green">Green</span>
+<span th:if="${colors == 'blue'}" class="blue">Blue</span>
+<span th:if="${colors == 'purple'}" class="purple">Purple</span>
+<span th:if="${colors == 'black'}" class="black">Black</span>
+</body>
+</html>
