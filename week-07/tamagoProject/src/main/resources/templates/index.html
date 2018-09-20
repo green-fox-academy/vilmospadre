@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" th:href="@{/style.css}" />
+    <link rel="stylesheet" th:href="@{/style.css}"/>
     <meta charset="UTF-8">
     <title>tamago</title>
 </head>
 <ul>
-<li><a href="">Info</a></li>
+    <li><a href="">Info</a></li>
 </ul>
-<img src="img/greenfox.png">
+<img src="img/wight.gif">
+<br>
+<span th:text="|This is ${name}|"></span>
+<br>
+<span th:text="|Currently living on ${food} and ${drink}|"></span>
+<br>
+<span th:text="|He knows ${trickCount} tricks|"></span>
+<h1>Known tricks</h1>
+<th:block>
+    <span th:if="${trickCount == 0}">You know no tricks yet. Go and learn some!</span>
+    <div th:unless="${trickCount == 0}" th:each="trick : ${tricks}">
+        <ul>
+            <div th:each="trick : ${tricks}">
+                <li th:text="${trick}"></li>
+            </div>
+</th:block>
 </body>
 </html>

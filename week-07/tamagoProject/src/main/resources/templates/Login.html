@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" th:href="@{/style.css}" />
+    <link rel="stylesheet" th:href="@{/style.css}"/>
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
@@ -10,10 +10,10 @@
 <p>Please provide a name, so you can associate it to your pet!</p>
 <form action="" method="post">
     <div>
-        <label for="Username">Name:</label>
-        <input type="text" id="name" name="user_name" required>
-        <button class="button">Go</button>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="submit" value="Login">
     </div>
-
+</form>
 </body>
 </html>
