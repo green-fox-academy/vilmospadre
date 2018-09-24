@@ -6,35 +6,18 @@ public class Main {
     public static void main(String... args) {
 
         ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 7));
-        System.out.println(doesit(arrayList));
+        System.out.println(doesIt(arrayList));
 
     }
 
-    public static String doesit(ArrayList<Integer> list) {
-
-        String well;
+    private static String doesIt(ArrayList<Integer> arrayList) {
 
 
-        if (list.contains(7)) {
-            well = "Hoooray!";
+        if (arrayList.contains(7)) {
+            return "Hoooray!";
 
         } else {
-            well = "Nooooo!";
+            return "Nooooo!";
         }
-
-        return well;
-
-
-
-        if (list.contains(6)) {
-
-            well = "Hoooray!";
-        } else {
-
-            well = "Nooooo!";
-        }
-
-        return well;
     }
-
 }
