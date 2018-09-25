@@ -59,7 +59,7 @@ public class TodoController {
 
     @PostMapping("/{id}/edit")
     public String editPost(@PathVariable Long id, String title, boolean done, boolean urgent) {
-        Todo todo = todoRepository.findAllById(id).get();
+        Todo todo = todoRepository.findById(id).get();
         todo.setTitle(title);
         todo.setDone(done);
         todo.setUrgent(urgent);
