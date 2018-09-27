@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public class HandEvaluator {
+public interface HandEvaluator {
+
+    RankedHand evaluate(List<Poker> cards);
 }
+

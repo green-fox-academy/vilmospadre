@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface Reservations {
 
-public class Reservations {
+    String getDowBooking();
+    String getCodeBooking();
 }

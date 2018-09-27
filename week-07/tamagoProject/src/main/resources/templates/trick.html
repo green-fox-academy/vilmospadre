@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Thymeleaf Exercise</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
 </head>
 <body>
-$END$
+<ul>
+    <li><a th:href="@{/?name=} + ${name}">Info</a></li>
+</ul>
+<form method="post" th:action="@{/trick?name=} + ${name}">
+    <label for="trick">Trick</label>
+    <select name="trick" id="trick">
+        <option value="Wake up dragon">Wake up dragon</option>
+        <option value="Evoke blizzard">Evoke blizzard</option>
+        <option value="Stare intense">Stare intense</option>
+        <option value="Wink on Dori Laborczi">Wink on Dori Laborczi</option>
+        <option value="Build a snowman that looks like Viktor Liszka">Build a snowman that looks like Viktor Liszka</option>
+    </select>
+    <button type="submit">Learn</button>
+</form>
 </body>
 </html>

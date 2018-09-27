@@ -13,7 +13,9 @@
 <form method="post" th:action="@{/nutrition?name=} + ${name}">
     <label for="foodmenu">Food</label>
     <select name="food" id="foodmenu">
-        <option value="jonsnow">Jon Snow</option>
+        <option value="Jon Snow">Jon Snow</option>
+        <option value="Lena Liszka">Lena Liszka</option>
+        <option value="Lena Headey">Cersei</option>
         <option value="Tyrion">Tyrion</option>
         <option value="anyone">anyone</option>
     </select>
@@ -21,6 +23,8 @@
     <select name="drink" id="drinkmenu">
         <option value="snow">snow</option>
         <option value="ice">melt ice</option>
+        <option value="red red wine">red red wine</option>
+        <option value="bloody mary">bloody mary</option>
         <option value="blood">blood</option>
     </select>
     <button type="submit">Change</button>

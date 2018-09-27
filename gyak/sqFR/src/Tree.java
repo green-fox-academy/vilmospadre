@@ -28,13 +28,12 @@ public class Tree extends JLabel {
         this.setIcon(new ImageIcon(newFrameImg));
 
         Graphics2D g2d = (Graphics2D) newFrameImg.getGraphics();
-        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, // Anti-alias!
+        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
                 RenderingHints.VALUE_ANTIALIAS_ON);
 
         g2d.setColor(Color.black);
         g2d.fillRect(0, 0, 1920, 1200);
         generateTreeFractal(g2d, 1920 / 2, 1200 / 2, 10, 200);
-        // generateTreeFractal(g2d, 1920/2, 1200/2,6 , 60);
 
     }
 
@@ -49,7 +48,7 @@ public class Tree extends JLabel {
                                      double lineWidth, double lineLength) {
 
 
-        final double LINE_WIDTH_MULTILIER = .80;
+        final double LINE_WIDTH_MULTIPLIER = .80;
         final double LINE_LENGTH_MULTIPLIER = .85;
 
 
@@ -97,7 +96,7 @@ public class Tree extends JLabel {
             g2d.drawLine((int) x, (int) y, (int) x1, (int) y1);
 
 
-            generateTreeFractal(g2d, x1, y1, lineWidth * LINE_WIDTH_MULTILIER,
+            generateTreeFractal(g2d, x1, y1, lineWidth * LINE_WIDTH_MULTIPLIER,
                     lineLength * LINE_LENGTH_MULTIPLIER);
 
         }

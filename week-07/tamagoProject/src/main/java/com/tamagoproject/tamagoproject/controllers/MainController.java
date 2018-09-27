@@ -27,10 +27,4 @@ public class MainController {
         model.addAttribute("tricks", fox.getTricks());
         return "index";
     }
-
-    //  @GetMapping("/nutrition")
-    // public String toNutrition(String name) {
-    //    return "redirect:/nutrition?name=" + name;
-
 }
-//}

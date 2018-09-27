@@ -24,6 +24,10 @@ input {
     width: 100%;
     height: 32px;
 }
+input:focus {
+    border: 1px solid darkgreen;
+    box-shadow: 0 0 1px;
+}
 
 button {
     background-color: #333333;
