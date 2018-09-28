@@ -9,7 +9,7 @@
 <a href="/submit">Submit new post</a>
 <h2>Trending posts</h2>
 <table>
-    <th:block th:each="post : ${posts}">
+    <th:block>
         <tr th:each="post : ${posts}">
             <td th:text="${post.score}"></td>
             <td>
