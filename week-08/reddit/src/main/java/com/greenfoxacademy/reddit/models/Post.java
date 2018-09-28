@@ -1,4 +1,5 @@
 package com.greenfoxacademy.reddit.models;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -8,22 +9,22 @@ import javax.persistence.Id;
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String title;
     private String url;
     private int score;
 
 
-    public Post() {
-
-    }
-
-
-    public Post(String title, String url, int score) {
+    public Post(String title, String url) {
         this.title = title;
         this.url = url;
-        this.score = score;
+        this.score = 0;
+    }
+
+    public Post() {
+        this.score = 0;
+
     }
 
     public long getId() {
@@ -57,6 +58,5 @@ public class Post {
     public void setScore(int score) {
         this.score = score;
     }
-
 
 }

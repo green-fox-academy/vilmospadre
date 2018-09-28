@@ -1,0 +1,37 @@
+body {
+    font: normal x-small, bankgothic, sans-serif!important;
+    z-index: 1;
+    min-height: 100%;
+    background-color: #9fa8b0;
+}
+body >.content .link .rank, .rank-spacer {
+    width: 100px;
+}
+
+table, td {
+    border: 1px solid #ccccb3;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle
+}
+#header {
+    padding: 10px 20px;
+    display: block;
+    background: #414b52;
+    border-bottom: 0px solid #333;
+    height: 240px;
+    background-color: #4c5a64;
+}
+.side {
+    float: right;
+    background-color: #414b52;
+    margin: 0px 5px 0 5px;
+    width: 360px;
+    background: -webkit-linear-gradient(top, #20282d 3%,#252e34 51%,#222a30 100%);
+
+}
+
+.side .spacer {
+    margin: 10px 0 30px 0;
+}
+
